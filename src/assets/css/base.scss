@@ -1,0 +1,252 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	//font-size: 100%;
+	//font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	font-family: "PingFangSC-Regular;", -apple-system, BlinkMacSystemFont, Helvetica Neue, Roboto, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, Myriad Pro, Hiragino Sans GB, Lucida Grande, sans-serif;
+}
+input{
+	border:0;
+	box-shadow: none;
+	-webkit-appearance: none;
+}
+input[type="text"] {
+  -webkit-appearance: none;
+}
+textarea {
+	outline: none;
+	border-radius: "4px";
+	box-shadow: none !important;
+	padding: 3px;
+	resize: none;
+	border-color: #d9d9d9 !important;
+	border-image: none;
+	-webkit-appearance: none;
+}
+
+.money-color {
+	color: #ff0000;
+}
+
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+//van 样式重置
+.van-tabs__wrap {
+	height: 36px !important;
+}
+
+.van-tabs__nav--line {
+	padding-bottom: 0;
+}
+
+.van-tabs__line {
+	bottom: -1px;
+}
+
+.van-tabs--line {
+	padding-top: 36px;
+}
+
+.van-tab {
+	color: $tab-font-gray;
+	font-weight: 500;
+}
+
+.van-tab--active {
+	color: #000;
+}
+
+.van-tabs__line {
+	background: $color-blue;
+}
+
+[class*=van-hairline]::after {
+	border-color: $border-color;
+}
+
+.van-checkbox__icon .van-icon {
+	border-color: #999;
+}
+
+.van-button--primary {
+	border-color: $color-blue;
+}
+
+.van-button--plain.van-button--primary {
+	color: $color-blue;
+}
+
+.van-button--normal {
+	padding: 0 44px;
+	border-radius: 4px;
+	height: 40px;
+	line-height: 38px;
+}
+
+.van-button--info {
+	background-color: $color-blue;
+}
+
+.van-popup {
+	border-radius: 12px;
+}
+
+.van-notify {
+	border-radius: 0;
+}
+
+.vant-cell {
+	align-items: center;
+}
+
+.van-checkbox__icon {
+	height: 25px;
+}
+
+.van-checkbox__label {
+	margin-top: -4px;
+}
+
+.van-hairline--top-bottom::after {
+	display: none;
+}
+
+.van-checkbox__icon--checked .van-icon {
+	border: 0;
+	background: $color-blue;
+}
+
+.van-search__content {
+	background: #fff;
+}
+
+.van-search__action {
+	color: $color-blue;
+}
+
+.van-tag {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.van-cell__value {
+	color: #333;
+}
+.van-cell:not(:last-child)::after{
+	border:1px solid #ddd;
+	bottom:-1px;
+	left:0;
+}
+.van-tabbar{
+	box-shadow:0px -1px 10px 0px rgba(209,211,223,0.6);
+}
+// 必填
+.require {
+	position: relative;
+}
+
+.require::after {
+	display: block;
+	content: '*';
+	position: absolute;
+	left: -10px;
+	top: 0;
+	color: #f44;
+	font-size: 12px;
+}
+
+.text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
